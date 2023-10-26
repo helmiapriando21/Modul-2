@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.Brand {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: #FFA500;
+}
+
+nav h1 {
+    margin-right: 500px;
+}
+
+span.menu {
+    display: flex;
+    align-items: right;
+    justify-content: end;
+}
+
+span.menu a {
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+}
+
+.header {
+    padding: 10px;
+    background-color: #ADD8E6;
+    margin-top: 0px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content h2 {
+    margin-bottom: 2px;
+}
+
+.ticket-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
